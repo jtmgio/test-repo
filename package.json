@@ -1,0 +1,19 @@
+{
+  "name": "test-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtmgio/test-repo.git"
+  },
+  "author": "Cavulus” <git-aws@cavulus.com(opens in new tab)”> (opens in new tab)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtmgio/test-repo/issues"
+  },
+  "homepage": "https://github.com/jtmgio/test-repo#readme"
+}
