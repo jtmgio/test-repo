@@ -1,8 +1,8 @@
-function sum(a, b, c) {
-    return a + b + c;
+function dif(a, b, c) {
+    return a - b - c;
 }
 
-const theSum = sum(1, 34, 23);
+const theDif = dif(21, 10, 5);
 
-confirm('do you like this')
-alert(theSum);
+confirm('this is subtraction')
+alert(theDif);
