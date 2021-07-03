@@ -4,10 +4,34 @@ Given a month as an integer from 1 to 12, return to which quarter of the year it
 For example: month 2 (February), is part of the first quarter; month 6 (June), is part of the second quarter; and month 11 (November), is part of the fourth quarter.
 */
 
+
+
+/* things I know
+
+1Q                  2Q              3Q              4Q
+1   2    3      4   5    6      7    8     9      10    11   12
+
+4 quarters in 1 year
+
+if argument is 8 is Q3 returns 3
+
+if argument is argument is 12 function returns 4
+
+
+*/
 const inQuarterOfYear = (month) => {
     // Your code here
+if (month <= 3) return 1;
+if (month > 3 && month < 7) return 2;
+if (month > 6 && month < 10) return 3;
+if (month > 9 && month <= 13) return 4;
 
 }
+
+// inQuarterOfYear (-5);
+// inQuarterOfYear (null);
+// inQuarterOfYear ('string');
+// inQuarterOfYear (undefined);
 
 
 //tests 
