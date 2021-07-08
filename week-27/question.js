@@ -19,8 +19,18 @@ const arr = ["foo", "bar","test"];
 //arr[2] == test
 */
 
-'abcdef'.charAt(3)
+// 'abcdef'.charAt(3)
 
-function reverseWords(str) {
-    return str; // reverse those words
-}
+let str = "The greatest victory is that which requires no battle.";
+const myArr = str.split(" ");
+myArr.reverse();
+console.log(myArr);
+
+
+
+
+
+
+// function reverseWords(str) {
+//     return str; // reverse those words
+// }
